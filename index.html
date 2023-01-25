@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CEFiSC News">
+    <meta name="author" content="Vinícius F. Rodrigues">
+
+    <title>CEFiSC News</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">CEFiSC News</a>
+      </div>
+    </nav>
+
+    
+
+    <!-- Page Content -->
+    <div class="container">
+      <h2 class="mt-5">Notícias do dia</h2>
+      <label for="filtrar-tabela">Filtre por data:</label>
+			<input type="text" name="filtro" id="filtrar-tabela"
+			placeholder="Data, ex: 01-01-2023">
+    </div>
+
+    <div class="container">
+      <table class="table" id="tabela-site">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Banner</th>
+      <th scope="col">Data de divulgação</th>
+      <th scope="col">Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+</div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/importa-dados.js"></script>
+    <script src="js/filtra.js"></script>
+
+  </body>
+
+</html>
